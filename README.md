@@ -6,7 +6,25 @@ Do note that completing the two tasks does not guarantee your acceptance into th
 
 Should you have any questions on the following two tasks, please drop me an email: roy_lee@sutd.edu.sg.
 
-## Task 1: Text Summarization
+## Task 1a: Hateful Meme Classification
+Hateful and offensive content detection has been extensively explored in a single modality such as text. However, such toxic information could also be communicated via multimodal content such as online memes. Therefore, detecting multimodal hateful content has recently garnered much attention in academic and industry research communities. In this task, you are required to perform hateful meme classification, i.e., predict if a given meme is hateful or non-hateful.
+
+You can download the dataset from the [Facebook Hateful Meme Challenge](https://hatefulmemeschallenge.com). You may also refer to the [Facebook MMF solutions](https://mmf.readthedocs.io/en/website/notes/hateful_memes_challenge.html#). You can also refer to the [Facebook's research paper](https://arxiv.org/abs/2005.04790) on the hateful meme challenge.
+
+You are required to report the Accuracy and AUROC on the validation dataset (as the unseen has no labels provided)
+
+**Deliverable**: Submit your Jupyter Notebook/Python codes with your implementation and arrange a date where we can skype to discuss your solution.
+
+Note that I am not just looking at the best performance. I am more interested in your thinking process. Specifically, I will like to know the following:
+
+*  How do you approach this problem?
+*  How you decide which text summarization models to implement?
+*  How you interpret your results?
+
+This task gives you a sneak preview on what you will be working on after joining my research team. You will be building novel machine learning algorithms, writing codes, designing experiments to evaluate your models, analyzing results, etc. If you find this task fun, then yes, you are the right student, and I am your right supervisor :)
+
+
+## Task 1b: Text Summarization
 
 Summarization is the process of condensing a piece of text into a shorter version in order to reduce the size of the original text while retaining key informational elements and content meaning. As text summarization is a time-consuming and laborious task, automating the task is gaining popularity and serves as a strong motivator for researchers. In this task, you are required to summarize the text from a sampled publicly available text summarization news article dataset collected for the [notable work by Hermann et al (2015)](http://papers.nips.cc/paper/5945-teaching-machines-to-readand-comprehend.pdf)
 
